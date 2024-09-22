@@ -47,6 +47,16 @@ export const barChartData: ChartsWithCardProps = {
   legend: {
     show: false,
   },
+  responsive: [
+    {
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 380,
+        },
+      },
+    },
+  ],
   xaxis: {
     categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
     title: {

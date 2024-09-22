@@ -74,4 +74,14 @@ export const semiCircleGaugeChartData: ChartsWithCardProps = {
     position: 'bottom',
   },
   labels: ['Label 1', 'Label 2'],
+  responsive: [
+    {
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 340,
+        },
+      },
+    },
+  ],
 };

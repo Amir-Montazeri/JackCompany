@@ -48,6 +48,16 @@ export const splineAreaChartData: ChartsWithCardProps = {
   stroke: {
     curve: 'straight',
   },
+  responsive: [
+    {
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 380,
+        },
+      },
+    },
+  ],
   xaxis: {
     title: {
       text: 'X-axis title',

@@ -29,10 +29,13 @@ const config: Config = {
       },
       height: {
         '0.5': '0.125rem',
-        18: '4.5rem',
         13: '3.25rem',
+        18: '4.5rem',
       },
       margin: {
+        18: '4.5rem',
+      },
+      padding: {
         18: '4.5rem',
       },
       colors: {

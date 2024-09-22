@@ -63,6 +63,14 @@ export const radialBarChartData: ChartsWithCardProps = {
     {
       breakpoint: 480,
       options: {
+        chart: {
+          width: 340,
+        },
+      },
+    },
+    {
+      breakpoint: 480,
+      options: {
         legend: {
           show: false,
         },
